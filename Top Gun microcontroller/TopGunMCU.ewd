@@ -1132,7 +1132,7 @@
         </option>
         <option>
           <name>CCSTLinkInterfaceRadio</name>
-          <state>0</state>
+          <state>1</state>
         </option>
         <option>
           <name>CCSTLinkInterfaceCmdLine</name>
@@ -1141,7 +1141,7 @@
         <option>
           <name>CCSTLinkResetList</name>
           <version>1</version>
-          <state>1</state>
+          <state>0</state>
         </option>
         <option>
           <name>CCCpuClockEdit</name>

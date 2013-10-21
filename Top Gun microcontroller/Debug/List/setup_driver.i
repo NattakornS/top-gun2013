@@ -16,6 +16,21 @@
 
 
 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -12416,48 +12431,59 @@ void SysTick_Handler(void);
 
 
 
+
  
 
 
 
 
-void USART_Setup (void);
 
 
-void USART_Setup(void)
+void RS485_Setup (void);                                                        
+void OLED_Setup (void);                                                         
+void NFC_Setup(void);                                                           
+
+
+void RS485_Setup(void);
+void NFC_Setup(void);
+
+void RS485_Setup(void)
 {
-   
-   
-  NVIC_InitTypeDef NVIC_InitStruct;
-  
-  NVIC_InitStruct.NVIC_IRQChannel = USART2_IRQn;
-  NVIC_InitStruct.NVIC_IRQChannelPreemptionPriority = 0;
-  NVIC_InitStruct.NVIC_IRQChannelSubPriority = 0;
-  NVIC_InitStruct.NVIC_IRQChannel = ENABLE;
-  NVIC_Init(&NVIC_InitStruct);
+
+
+
+
+
+
+
+
+
+
 
   
   GPIO_InitTypeDef GPIO_InitStruct;
   USART_InitTypeDef USART_InitStruct;
 	
-  RCC_APB1PeriphClockCmd(((uint32_t)0x00020000), ENABLE);
+  RCC_APB1PeriphClockCmd(((uint32_t)0x00080000), ENABLE);
   RCC_AHB1PeriphClockCmd(((uint32_t)0x00000001), ENABLE);
-   
-  GPIO_PinAFConfig(((GPIO_TypeDef *) ((((uint32_t)0x40000000) + 0x00020000) + 0x0000)), ((uint8_t)0x02), ((uint8_t)0x07));
-   
-  GPIO_PinAFConfig( ((GPIO_TypeDef *) ((((uint32_t)0x40000000) + 0x00020000) + 0x0000)), ((uint8_t)0x03), ((uint8_t)0x07));
 	
   
 
 
  
    
-  GPIO_InitStruct.GPIO_Pin  = ((uint16_t)0x0004) | ((uint16_t)0x0008);
+  GPIO_InitStruct.GPIO_Pin  = ((uint16_t)0x0001) | ((uint16_t)0x0002);
   GPIO_InitStruct.GPIO_Mode = GPIO_Mode_AF;
   GPIO_InitStruct.GPIO_Speed = GPIO_Speed_50MHz;
   GPIO_InitStruct.GPIO_OType = GPIO_OType_PP;
   GPIO_InitStruct.GPIO_PuPd = GPIO_PuPd_NOPULL;
   GPIO_Init(((GPIO_TypeDef *) ((((uint32_t)0x40000000) + 0x00020000) + 0x0000)), &GPIO_InitStruct);
+  
+   
+  GPIO_PinAFConfig(((GPIO_TypeDef *) ((((uint32_t)0x40000000) + 0x00020000) + 0x0000)), ((uint8_t)0x00), ((uint8_t)0x08));
+   
+  GPIO_PinAFConfig( ((GPIO_TypeDef *) ((((uint32_t)0x40000000) + 0x00020000) + 0x0000)), ((uint8_t)0x01), ((uint8_t)0x08));
+  
   
    
   USART_InitStruct.USART_BaudRate = 9600;
@@ -12466,14 +12492,60 @@ void USART_Setup(void)
   USART_InitStruct.USART_Parity = ((uint16_t)0x0000) ;
   USART_InitStruct.USART_Mode = ((uint16_t)0x0004) | ((uint16_t)0x0008);
   USART_InitStruct.USART_HardwareFlowControl = ((uint16_t)0x0000);  
-  USART_Init(((USART_TypeDef *) (((uint32_t)0x40000000) + 0x4400)), &USART_InitStruct);
-
-   
-  
-  USART_ITConfig(((USART_TypeDef *) (((uint32_t)0x40000000) + 0x4400)), ((uint16_t)0x0525), ENABLE);
-  
-  USART_ITConfig(((USART_TypeDef *) (((uint32_t)0x40000000) + 0x4400)), ((uint16_t)0x0727), DISABLE);
+  USART_Init(((USART_TypeDef *) (((uint32_t)0x40000000) + 0x4C00)), &USART_InitStruct);
   
   
-  USART_Cmd(((USART_TypeDef *) (((uint32_t)0x40000000) + 0x4400)), ENABLE);
+  USART_Cmd(((USART_TypeDef *) (((uint32_t)0x40000000) + 0x4C00)), ENABLE);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

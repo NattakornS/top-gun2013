@@ -30,7 +30,7 @@
 #include "stm32f4_discovery_lis302dl.h"
 #include <stdio.h>
 #include "stm32f4xx_it.h"
-#include "waveplayer.h"
+//#include "waveplayer.h"
 
 #ifdef MEDIA_USB_KEY
  #include "waverecorder.h"

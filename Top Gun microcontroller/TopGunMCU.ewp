@@ -168,7 +168,7 @@
         </option>
         <option>
           <name>CCDefines</name>
-          <state>STM32F4XX_VG</state>
+          <state>STM32F4XX</state>
           <state>USE_STDPERIPH_DRIVER</state>
           <state>HSE=8000000</state>
         </option>
@@ -305,6 +305,7 @@
           <state>$PROJ_DIR$\Utilities\STM32F4-Discovery</state>
           <state>$PROJ_DIR$\CMSIS\Include</state>
           <state>$PROJ_DIR$\Application</state>
+          <state>$PROJ_DIR$\Application\oled_app</state>
         </option>
         <option>
           <name>CCStdIncCheck</name>
@@ -1851,6 +1852,12 @@
     </file>
     <file>
       <name>$PROJ_DIR$\stm32f4xx_it.c</name>
+    </file>
+  </group>
+  <group>
+    <name>OLED</name>
+    <file>
+      <name>$PROJ_DIR$\Application\oled_app\oledApp.c</name>
     </file>
   </group>
   <group>
