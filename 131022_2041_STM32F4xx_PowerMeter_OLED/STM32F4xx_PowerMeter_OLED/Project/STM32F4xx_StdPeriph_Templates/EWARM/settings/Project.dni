@@ -1,0 +1,108 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[JLinkDriver]
+WatchCond=_ 0
+Watch0=_ 0 "" 0 "" 0 "" 0 "" 0 0 0 0
+Watch1=_ 0 "" 0 "" 0 "" 0 "" 0 0 0 0
+[DebugChecksum]
+Checksum=1361340556
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[SWOTraceHWSettings]
+OverrideDefaultClocks=0
+CpuClock=72000000
+ClockAutoDetect=1
+ClockWanted=2000000
+JtagSpeed=2000000
+Prescaler=36
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+
+
+[watch_formats]
+Fmt0={W}0:Time_Rec_Base	4	0
+Fmt1={W}0:dpTick	4	0
+Fmt2={W}42:EnergyValue	3	0
+[DataLog]
+LogEnabled=1
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Trace2]
+Enabled=0
+ShowSource=0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=3
+Graph=0
+Symbiont=0
+Exclusions=
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 0 "EMUL_DATA" "METER_ID" 0 0 0 0 4294967295
+Bp1=_ 0 "EMUL_DATA" "appDisplayProcess" 0 0 0 0 4294967295
+Count=2
+[Aliases]
+A0=_ "C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\arm\CMSIS\Include\core_cm4.h" ""
+A1=_ "C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\arm\inc\c\ctype.h" ""
+A2=_ "C:\Users\Administrator\Desktop\130830_1140_STM32F4xx_PowerMeter_OLED_[P'Sound]\STM32F4xx_PowerMeter_OLED\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c" ""
+A3=_ "C:\Users\Administrator\Desktop\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c" ""
+A4=_ "C:\Users\Administrator\Desktop\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c" ""
+A5=_ "C:\Users\Administrator\Desktop\STM32F4xx_DSP_StdPeriph_Lib_V1.1.0\Project\STM32F4xx_StdPeriph_Templates\main.c" ""
+A6=_ "C:\Users\Administrator\Desktop\STM32F4xx_PowerMeter\Project\STM32F4xx_StdPeriph_Templates\main.c" ""
+A7=_ "C:\Users\Administrator\Desktop\STM32F4xx_PowerMeter_OLED_V1\Project\STM32F4xx_StdPeriph_Templates\main.c" ""
+A8=_ "C:\Users\Administrator\Desktop\STM32F4xx_PowerMeter_meterjing\Project\STM32F4xx_StdPeriph_Templates\main.c" ""
+A9=_ "D:\Misc\SharedWrite\TESA_TOPGUN_2013\Firmware\STM32F4xx_PowerMeter_OLED\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c" ""
+A10=_ "D:\Misc\SharedWrite\TESA_TOPGUN_2013\Firmware\STM32F4xx_PowerMeter_OLED\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c" ""
+A11=_ "D:\Misc\SharedWrite\TESA_TOPGUN_2013\Firmware\STM32F4xx_PowerMeter_OLED\Project\STM32F4xx_StdPeriph_Templates\main_abEvalTest.c" ""
+A12=_ "D:\Misc\SharedWrite\TESA_TOPGUN_2013\Firmware\STM32F4xx_PowerMeter_OLED\userLib\dgZigbeeApi.c" ""
+Count=13
+SuppressDialog=0

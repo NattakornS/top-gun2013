@@ -1,0 +1,1017 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V6.50.3.4676/W32 for ARM               23/Oct/2013  12:34:15 #
+# Copyright 2007-2013 IAR Systems AB.                                         #
+#                                                                             #
+#    Output file  =  E:\My document\TESA Top Gun\131022_2041_STM32F4xx_PowerM #
+#                    eter_OLED\STM32F4xx_PowerMeter_OLED\Project\STM32F4xx_St #
+#                    dPeriph_Templates\EWARM\STM324xAirBean_EVAL\Exe\Project. #
+#                    out                                                      #
+#    Map file     =  E:\My document\TESA Top Gun\131022_2041_STM32F4xx_PowerM #
+#                    eter_OLED\STM32F4xx_PowerMeter_OLED\Project\STM32F4xx_St #
+#                    dPeriph_Templates\EWARM\STM324xAirBean_EVAL\List\Project #
+#                    .map                                                     #
+#    Command line =  "E:\My document\TESA Top Gun\131022_2041_STM32F4xx_Power #
+#                    Meter_OLED\STM32F4xx_PowerMeter_OLED\userLib\dgHelper.o" #
+#                     "E:\My document\TESA Top Gun\131022_2041_STM32F4xx_Powe #
+#                    rMeter_OLED\STM32F4xx_PowerMeter_OLED\Project\STM32F4xx_ #
+#                    StdPeriph_Templates\EWARM\STM324xAirBean_EVAL\Obj\dgSIC4 #
+#                    310App.o" "E:\My document\TESA Top                       #
+#                    Gun\131022_2041_STM32F4xx_PowerMeter_OLED\STM32F4xx_Powe #
+#                    rMeter_OLED\Project\STM32F4xx_StdPeriph_Templates\EWARM\ #
+#                    STM324xAirBean_EVAL\Obj\dgSaijoApp.o" "E:\My             #
+#                    document\TESA Top Gun\131022_2041_STM32F4xx_PowerMeter_O #
+#                    LED\STM32F4xx_PowerMeter_OLED\Project\STM32F4xx_StdPerip #
+#                    h_Templates\EWARM\STM324xAirBean_EVAL\Obj\dgZigbeeApi.o" #
+#                     "E:\My document\TESA Top Gun\131022_2041_STM32F4xx_Powe #
+#                    rMeter_OLED\STM32F4xx_PowerMeter_OLED\Project\STM32F4xx_ #
+#                    StdPeriph_Templates\EWARM\STM324xAirBean_EVAL\Obj\main_a #
+#                    bEvalTest.o" "E:\My document\TESA Top                    #
+#                    Gun\131022_2041_STM32F4xx_PowerMeter_OLED\STM32F4xx_Powe #
+#                    rMeter_OLED\Project\STM32F4xx_StdPeriph_Templates\EWARM\ #
+#                    STM324xAirBean_EVAL\Obj\misc.o" "E:\My document\TESA     #
+#                    Top Gun\131022_2041_STM32F4xx_PowerMeter_OLED\STM32F4xx_ #
+#                    PowerMeter_OLED\Project\STM32F4xx_StdPeriph_Templates\EW #
+#                    ARM\STM324xAirBean_EVAL\Obj\oledApp.o" "E:\My            #
+#                    document\TESA Top Gun\131022_2041_STM32F4xx_PowerMeter_O #
+#                    LED\STM32F4xx_PowerMeter_OLED\Project\STM32F4xx_StdPerip #
+#                    h_Templates\EWARM\STM324xAirBean_EVAL\Obj\startup_stm32f #
+#                    40xx.o" "E:\My document\TESA Top                         #
+#                    Gun\131022_2041_STM32F4xx_PowerMeter_OLED\STM32F4xx_Powe #
+#                    rMeter_OLED\Project\STM32F4xx_StdPeriph_Templates\EWARM\ #
+#                    STM324xAirBean_EVAL\Obj\stm324xab_eval.o" "E:\My         #
+#                    document\TESA Top Gun\131022_2041_STM32F4xx_PowerMeter_O #
+#                    LED\STM32F4xx_PowerMeter_OLED\Project\STM32F4xx_StdPerip #
+#                    h_Templates\EWARM\STM324xAirBean_EVAL\Obj\stm32f4xx_adc. #
+#                    o" "E:\My document\TESA Top                              #
+#                    Gun\131022_2041_STM32F4xx_PowerMeter_OLED\STM32F4xx_Powe #
+#                    rMeter_OLED\Project\STM32F4xx_StdPeriph_Templates\EWARM\ #
+#                    STM324xAirBean_EVAL\Obj\stm32f4xx_can.o" "E:\My          #
+#                    document\TESA Top Gun\131022_2041_STM32F4xx_PowerMeter_O #
+#                    LED\STM32F4xx_PowerMeter_OLED\Project\STM32F4xx_StdPerip #
+#                    h_Templates\EWARM\STM324xAirBean_EVAL\Obj\stm32f4xx_crc. #
+#                    o" "E:\My document\TESA Top                              #
+#                    Gun\131022_2041_STM32F4xx_PowerMeter_OLED\STM32F4xx_Powe #
+#                    rMeter_OLED\Project\STM32F4xx_StdPeriph_Templates\EWARM\ #
+#                    STM324xAirBean_EVAL\Obj\stm32f4xx_cryp.o" "E:\My         #
+#                    document\TESA Top Gun\131022_2041_STM32F4xx_PowerMeter_O #
+#                    LED\STM32F4xx_PowerMeter_OLED\Project\STM32F4xx_StdPerip #
+#                    h_Templates\EWARM\STM324xAirBean_EVAL\Obj\stm32f4xx_cryp #
+#                    _aes.o" "E:\My document\TESA Top                         #
+#                    Gun\131022_2041_STM32F4xx_PowerMeter_OLED\STM32F4xx_Powe #
+#                    rMeter_OLED\Project\STM32F4xx_StdPeriph_Templates\EWARM\ #
+#                    STM324xAirBean_EVAL\Obj\stm32f4xx_cryp_des.o" "E:\My     #
+#                    document\TESA Top Gun\131022_2041_STM32F4xx_PowerMeter_O #
+#                    LED\STM32F4xx_PowerMeter_OLED\Project\STM32F4xx_StdPerip #
+#                    h_Templates\EWARM\STM324xAirBean_EVAL\Obj\stm32f4xx_cryp #
+#                    _tdes.o" "E:\My document\TESA Top                        #
+#                    Gun\131022_2041_STM32F4xx_PowerMeter_OLED\STM32F4xx_Powe #
+#                    rMeter_OLED\Project\STM32F4xx_StdPeriph_Templates\EWARM\ #
+#                    STM324xAirBean_EVAL\Obj\stm32f4xx_dac.o" "E:\My          #
+#                    document\TESA Top Gun\131022_2041_STM32F4xx_PowerMeter_O #
+#                    LED\STM32F4xx_PowerMeter_OLED\Project\STM32F4xx_StdPerip #
+#                    h_Templates\EWARM\STM324xAirBean_EVAL\Obj\stm32f4xx_dbgm #
+#                    cu.o" "E:\My document\TESA Top                           #
+#                    Gun\131022_2041_STM32F4xx_PowerMeter_OLED\STM32F4xx_Powe #
+#                    rMeter_OLED\Project\STM32F4xx_StdPeriph_Templates\EWARM\ #
+#                    STM324xAirBean_EVAL\Obj\stm32f4xx_dcmi.o" "E:\My         #
+#                    document\TESA Top Gun\131022_2041_STM32F4xx_PowerMeter_O #
+#                    LED\STM32F4xx_PowerMeter_OLED\Project\STM32F4xx_StdPerip #
+#                    h_Templates\EWARM\STM324xAirBean_EVAL\Obj\stm32f4xx_dma. #
+#                    o" "E:\My document\TESA Top                              #
+#                    Gun\131022_2041_STM32F4xx_PowerMeter_OLED\STM32F4xx_Powe #
+#                    rMeter_OLED\Project\STM32F4xx_StdPeriph_Templates\EWARM\ #
+#                    STM324xAirBean_EVAL\Obj\stm32f4xx_exti.o" "E:\My         #
+#                    document\TESA Top Gun\131022_2041_STM32F4xx_PowerMeter_O #
+#                    LED\STM32F4xx_PowerMeter_OLED\Project\STM32F4xx_StdPerip #
+#                    h_Templates\EWARM\STM324xAirBean_EVAL\Obj\stm32f4xx_flas #
+#                    h.o" "E:\My document\TESA Top                            #
+#                    Gun\131022_2041_STM32F4xx_PowerMeter_OLED\STM32F4xx_Powe #
+#                    rMeter_OLED\Project\STM32F4xx_StdPeriph_Templates\EWARM\ #
+#                    STM324xAirBean_EVAL\Obj\stm32f4xx_fsmc.o" "E:\My         #
+#                    document\TESA Top Gun\131022_2041_STM32F4xx_PowerMeter_O #
+#                    LED\STM32F4xx_PowerMeter_OLED\Project\STM32F4xx_StdPerip #
+#                    h_Templates\EWARM\STM324xAirBean_EVAL\Obj\stm32f4xx_gpio #
+#                    .o" "E:\My document\TESA Top                             #
+#                    Gun\131022_2041_STM32F4xx_PowerMeter_OLED\STM32F4xx_Powe #
+#                    rMeter_OLED\Project\STM32F4xx_StdPeriph_Templates\EWARM\ #
+#                    STM324xAirBean_EVAL\Obj\stm32f4xx_hash.o" "E:\My         #
+#                    document\TESA Top Gun\131022_2041_STM32F4xx_PowerMeter_O #
+#                    LED\STM32F4xx_PowerMeter_OLED\Project\STM32F4xx_StdPerip #
+#                    h_Templates\EWARM\STM324xAirBean_EVAL\Obj\stm32f4xx_hash #
+#                    _md5.o" "E:\My document\TESA Top                         #
+#                    Gun\131022_2041_STM32F4xx_PowerMeter_OLED\STM32F4xx_Powe #
+#                    rMeter_OLED\Project\STM32F4xx_StdPeriph_Templates\EWARM\ #
+#                    STM324xAirBean_EVAL\Obj\stm32f4xx_hash_sha1.o" "E:\My    #
+#                    document\TESA Top Gun\131022_2041_STM32F4xx_PowerMeter_O #
+#                    LED\STM32F4xx_PowerMeter_OLED\Project\STM32F4xx_StdPerip #
+#                    h_Templates\EWARM\STM324xAirBean_EVAL\Obj\stm32f4xx_i2c. #
+#                    o" "E:\My document\TESA Top                              #
+#                    Gun\131022_2041_STM32F4xx_PowerMeter_OLED\STM32F4xx_Powe #
+#                    rMeter_OLED\Project\STM32F4xx_StdPeriph_Templates\EWARM\ #
+#                    STM324xAirBean_EVAL\Obj\stm32f4xx_it.o" "E:\My           #
+#                    document\TESA Top Gun\131022_2041_STM32F4xx_PowerMeter_O #
+#                    LED\STM32F4xx_PowerMeter_OLED\Project\STM32F4xx_StdPerip #
+#                    h_Templates\EWARM\STM324xAirBean_EVAL\Obj\stm32f4xx_iwdg #
+#                    .o" "E:\My document\TESA Top                             #
+#                    Gun\131022_2041_STM32F4xx_PowerMeter_OLED\STM32F4xx_Powe #
+#                    rMeter_OLED\Project\STM32F4xx_StdPeriph_Templates\EWARM\ #
+#                    STM324xAirBean_EVAL\Obj\stm32f4xx_pwr.o" "E:\My          #
+#                    document\TESA Top Gun\131022_2041_STM32F4xx_PowerMeter_O #
+#                    LED\STM32F4xx_PowerMeter_OLED\Project\STM32F4xx_StdPerip #
+#                    h_Templates\EWARM\STM324xAirBean_EVAL\Obj\stm32f4xx_rcc. #
+#                    o" "E:\My document\TESA Top                              #
+#                    Gun\131022_2041_STM32F4xx_PowerMeter_OLED\STM32F4xx_Powe #
+#                    rMeter_OLED\Project\STM32F4xx_StdPeriph_Templates\EWARM\ #
+#                    STM324xAirBean_EVAL\Obj\stm32f4xx_rng.o" "E:\My          #
+#                    document\TESA Top Gun\131022_2041_STM32F4xx_PowerMeter_O #
+#                    LED\STM32F4xx_PowerMeter_OLED\Project\STM32F4xx_StdPerip #
+#                    h_Templates\EWARM\STM324xAirBean_EVAL\Obj\stm32f4xx_rtc. #
+#                    o" "E:\My document\TESA Top                              #
+#                    Gun\131022_2041_STM32F4xx_PowerMeter_OLED\STM32F4xx_Powe #
+#                    rMeter_OLED\Project\STM32F4xx_StdPeriph_Templates\EWARM\ #
+#                    STM324xAirBean_EVAL\Obj\stm32f4xx_sdio.o" "E:\My         #
+#                    document\TESA Top Gun\131022_2041_STM32F4xx_PowerMeter_O #
+#                    LED\STM32F4xx_PowerMeter_OLED\Project\STM32F4xx_StdPerip #
+#                    h_Templates\EWARM\STM324xAirBean_EVAL\Obj\stm32f4xx_spi. #
+#                    o" "E:\My document\TESA Top                              #
+#                    Gun\131022_2041_STM32F4xx_PowerMeter_OLED\STM32F4xx_Powe #
+#                    rMeter_OLED\Project\STM32F4xx_StdPeriph_Templates\EWARM\ #
+#                    STM324xAirBean_EVAL\Obj\stm32f4xx_syscfg.o" "E:\My       #
+#                    document\TESA Top Gun\131022_2041_STM32F4xx_PowerMeter_O #
+#                    LED\STM32F4xx_PowerMeter_OLED\Project\STM32F4xx_StdPerip #
+#                    h_Templates\EWARM\STM324xAirBean_EVAL\Obj\stm32f4xx_tim. #
+#                    o" "E:\My document\TESA Top                              #
+#                    Gun\131022_2041_STM32F4xx_PowerMeter_OLED\STM32F4xx_Powe #
+#                    rMeter_OLED\Project\STM32F4xx_StdPeriph_Templates\EWARM\ #
+#                    STM324xAirBean_EVAL\Obj\stm32f4xx_usart.o" "E:\My        #
+#                    document\TESA Top Gun\131022_2041_STM32F4xx_PowerMeter_O #
+#                    LED\STM32F4xx_PowerMeter_OLED\Project\STM32F4xx_StdPerip #
+#                    h_Templates\EWARM\STM324xAirBean_EVAL\Obj\stm32f4xx_wwdg #
+#                    .o" "E:\My document\TESA Top                             #
+#                    Gun\131022_2041_STM32F4xx_PowerMeter_OLED\STM32F4xx_Powe #
+#                    rMeter_OLED\Project\STM32F4xx_StdPeriph_Templates\EWARM\ #
+#                    STM324xAirBean_EVAL\Obj\sx1App.o" "E:\My document\TESA   #
+#                    Top Gun\131022_2041_STM32F4xx_PowerMeter_OLED\STM32F4xx_ #
+#                    PowerMeter_OLED\Project\STM32F4xx_StdPeriph_Templates\EW #
+#                    ARM\STM324xAirBean_EVAL\Obj\system_stm32f4xx.o"          #
+#                    --redirect _Printf=_PrintfSmall --redirect               #
+#                    _Scanf=_ScanfSmall -o "E:\My document\TESA Top           #
+#                    Gun\131022_2041_STM32F4xx_PowerMeter_OLED\STM32F4xx_Powe #
+#                    rMeter_OLED\Project\STM32F4xx_StdPeriph_Templates\EWARM\ #
+#                    STM324xAirBean_EVAL\Exe\Project.out" --map "E:\My        #
+#                    document\TESA Top Gun\131022_2041_STM32F4xx_PowerMeter_O #
+#                    LED\STM32F4xx_PowerMeter_OLED\Project\STM32F4xx_StdPerip #
+#                    h_Templates\EWARM\STM324xAirBean_EVAL\List\Project.map"  #
+#                    --config "E:\My document\TESA Top                        #
+#                    Gun\131022_2041_STM32F4xx_PowerMeter_OLED\STM32F4xx_Powe #
+#                    rMeter_OLED\Project\STM32F4xx_StdPeriph_Templates\EWARM\ #
+#                    stm32f4xx_flash.icf" --semihosting --entry               #
+#                    __iar_program_start --vfe                                #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor                     = *
+__Heap_Handler                = Basic
+__SystemLibrary               = DLib
+__dlib_dynamic_initialization = normal
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x081fffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2002ffff] { rw, block CSTACK, block HEAP };
+
+  Section             Kind        Address    Size  Object
+  -------             ----        -------    ----  ------
+"A1":                                       0x188
+  .intvec             ro code  0x08000000   0x188  startup_stm32f40xx.o [1]
+                             - 0x08000188   0x188
+
+"P1":                                      0x53c8
+  .text               ro code  0x08000188   0xe3c  sx1App.o [1]
+  .text               ro code  0x08000fc4   0x17c  stm32f4xx_rcc.o [1]
+  .text               ro code  0x08001140   0x12c  stm32f4xx_gpio.o [1]
+  .text               ro code  0x0800126c     0x8  atoi.o [4]
+  .text               ro code  0x08001274   0x206  stm32f4xx_usart.o [1]
+  .text               ro code  0x0800147a    0x2e  copy_init3.o [6]
+  .text               ro code  0x080014a8    0x28  stm32f4xx_it.o [1]
+  .text               ro code  0x080014d0    0x88  misc.o [1]
+  .text               ro code  0x08001558    0x4e  FltToDbl.o [5]
+  .text               ro code  0x080015a6    0x22  zero_init3.o [6]
+  .text               ro code  0x080015c8   0x1a2  DblMul.o [5]
+  .text               ro code  0x0800176a     0xa  xsprout.o [4]
+  .text               ro code  0x08001774    0x90  DblToFlt.o [5]
+  .text               ro code  0x08001804   0x16c  xstoul.o [4]
+  .text               ro code  0x08001970    0x14  isxxx.o [4]
+  .text               ro code  0x08001984    0x14  tolower.o [4]
+  .text               ro code  0x08001998    0x58  memchr.o [6]
+  .text               ro code  0x080019f0     0xc  errno.o [4]
+  .text               ro code  0x080019fc    0x24  setlocale.o [4]
+  .text               ro code  0x08001a20    0x14  xlocale_c.o [4]
+  .text               ro code  0x08001a34     0xc  xlocale_c.o [4]
+  .text               ro code  0x08001a40     0x2  xtls.o [4]
+  .text               ro code  0x08001a44   0xb24  main_abEvalTest.o [1]
+  .text               ro code  0x08002568   0x40c  stm324xab_eval.o [1]
+  .text               ro code  0x08002974   0x51c  dgZigbeeApi.o [1]
+  .text               ro code  0x08002e90   0x304  dgSaijoApp.o [1]
+  .text               ro code  0x08003194   0x22c  dgSIC4310App.o [1]
+  .text               ro code  0x080033c0   0x5ee  oledApp.o [1]
+  .text               ro code  0x080039b0    0x54  stm32f4xx_syscfg.o [1]
+  .text               ro code  0x08003a04    0xcc  stm32f4xx_exti.o [1]
+  .text               ro code  0x08003ad0    0x42  strcmp.o [6]
+  .text               ro code  0x08003b14    0x34  sprintf.o [4]
+  .text               ro code  0x08003b48    0x44  strcpy.o [6]
+  .text               ro code  0x08003b8c    0x6c  strncpy.o [6]
+  .text               ro code  0x08003bf8    0x2c  I32ToDbl.o [5]
+  .text               ro code  0x08003c24    0xe8  DblAdd.o [5]
+  .text               ro code  0x08003d0c    0x2c  DblToI32.o [5]
+  .text               ro code  0x08003d38    0x36  strlen.o [6]
+  .text               ro code  0x08003d6e   0x100  dgHelper.o [2]
+  .text               ro code  0x08003e6e    0x16  dgZigbeeApi.o [1]
+  .text               ro code  0x08003e84   0x1ee  stm32f4xx_i2c.o [1]
+  .text               ro code  0x08004072    0x1c  strcat.o [4]
+  .text               ro code  0x08004090   0x748  xprintfsmall.o [4]
+  .text               ro code  0x080047d8    0x5e  ABImemset.o [6]
+  .text               ro code  0x08004838   0x16c  DblSub.o [5]
+  .text               ro code  0x080049a4    0x28  dgHelper.o [2]
+  .text               ro code  0x080049cc    0x18  toupper.o [4]
+  .text               ro code  0x080049e4    0x76  ABImemcpy.o [6]
+  .text               ro code  0x08004a5a    0x20  xmbtowc.o [4]
+  .text               ro code  0x08004a7c    0x16  strchr.o [6]
+  .text               ro code  0x08004a92     0xa  xmbcurmax.o [4]
+  .text               ro code  0x08004a9c    0xb0  xxmemxmalloc.o [4]
+  .text               ro code  0x08004b4c    0x1a  xwctomb.o [4]
+  .text               ro code  0x08004b68    0x80  xxmemxfree.o [4]
+  .text               ro code  0x08004be8    0x12  dgHelper.o [2]
+  .text               ro code  0x08004bfc    0x60  xencoding_sb.o [4]
+  .text               ro code  0x08004c5c    0x2c  xgetmemchunk.o [4]
+  .rodata             const    0x08004c88   0x248  oledApp.o [1]
+  .text               ro code  0x08004ed0   0x154  system_stm32f4xx.o [1]
+  .rodata             const    0x08005024    0x28  oledApp.o [1]
+  .text               ro code  0x0800504c    0x28  data_init.o [6]
+  .iar.init_table     const    0x08005074    0x24  - Linker created -
+  .rodata             const    0x08005098    0x1c  dgZigbeeApi.o [1]
+  .text               ro code  0x080050b4    0x1a  fpinit_M.o [5]
+  .text               ro code  0x080050d0    0x16  cmain.o [6]
+  .text               ro code  0x080050e6     0x4  low_level_init.o [4]
+  .text               ro code  0x080050ea     0x4  exit.o [4]
+  .text               ro code  0x080050f0     0xa  cexit.o [6]
+  .text               ro code  0x080050fc    0x14  exit.o [7]
+  .rodata             const    0x08005110    0x14  main_abEvalTest.o [1]
+  .rodata             const    0x08005124    0x14  main_abEvalTest.o [1]
+  .rodata             const    0x08005138    0x14  main_abEvalTest.o [1]
+  .rodata             const    0x0800514c    0x14  main_abEvalTest.o [1]
+  .rodata             const    0x08005160    0x14  main_abEvalTest.o [1]
+  .rodata             const    0x08005174    0x10  main_abEvalTest.o [1]
+  .rodata             const    0x08005184    0x10  main_abEvalTest.o [1]
+  .text               ro code  0x08005194    0x10  startup_stm32f40xx.o [1]
+  .rodata             const    0x080051a4     0xc  dgZigbeeApi.o [1]
+  .rodata             const    0x080051b0     0xc  dgZigbeeApi.o [1]
+  .rodata             const    0x080051bc     0xc  dgZigbeeApi.o [1]
+  .rodata             const    0x080051c8     0xc  dgZigbeeApi.o [1]
+  .rodata             const    0x080051d4     0xc  dgZigbeeApi.o [1]
+  .rodata             const    0x080051e0     0xc  dgZigbeeApi.o [1]
+  .rodata             const    0x080051ec     0xc  dgZigbeeApi.o [1]
+  .rodata             const    0x080051f8     0xc  dgZigbeeApi.o [1]
+  .rodata             const    0x08005204     0xc  main_abEvalTest.o [1]
+  .text               ro code  0x08005210     0xc  cstartup_M.o [6]
+  .rodata             const    0x0800521c     0x8  dgSaijoApp.o [1]
+  .rodata             const    0x08005224     0x8  dgSaijoApp.o [1]
+  .rodata             const    0x0800522c     0x8  dgSaijoApp.o [1]
+  .rodata             const    0x08005234     0x8  dgSaijoApp.o [1]
+  .rodata             const    0x0800523c     0x8  dgSaijoApp.o [1]
+  .rodata             const    0x08005244     0x8  dgSaijoApp.o [1]
+  .rodata             const    0x0800524c     0x8  dgSaijoApp.o [1]
+  .rodata             const    0x08005254     0x8  dgSaijoApp.o [1]
+  .rodata             const    0x0800525c     0x8  dgSaijoApp.o [1]
+  .rodata             const    0x08005264     0x8  dgZigbeeApi.o [1]
+  .rodata             const    0x0800526c     0x8  dgZigbeeApi.o [1]
+  .rodata             const    0x08005274     0x8  dgZigbeeApi.o [1]
+  .rodata             const    0x0800527c     0x8  dgZigbeeApi.o [1]
+  .rodata             const    0x08005284     0x8  dgZigbeeApi.o [1]
+  .rodata             const    0x0800528c     0x8  main_abEvalTest.o [1]
+  .rodata             const    0x08005294     0x8  main_abEvalTest.o [1]
+  .rodata             const    0x0800529c     0x8  main_abEvalTest.o [1]
+  .rodata             const    0x080052a4     0x8  main_abEvalTest.o [1]
+  .rodata             const    0x080052ac     0x8  main_abEvalTest.o [1]
+  .rodata             const    0x080052b4     0x8  main_abEvalTest.o [1]
+  .rodata             const    0x080052bc     0x8  main_abEvalTest.o [1]
+  .rodata             const    0x080052c4     0x8  main_abEvalTest.o [1]
+  .rodata             const    0x080052cc     0x8  main_abEvalTest.o [1]
+  .rodata             const    0x080052d4     0x8  main_abEvalTest.o [1]
+  .rodata             const    0x080052dc     0x8  main_abEvalTest.o [1]
+  .rodata             const    0x080052e4     0x8  main_abEvalTest.o [1]
+  .rodata             const    0x080052ec     0x8  stm324xab_eval.o [1]
+  .rodata             const    0x080052f4     0x8  stm324xab_eval.o [1]
+  .rodata             const    0x080052fc     0x8  stm324xab_eval.o [1]
+  .text               ro code  0x08005304     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005308     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x0800530c     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005310     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005314     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005318     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x0800531c     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005320     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005324     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005328     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x0800532c     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005330     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005334     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005338     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x0800533c     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005340     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005344     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005348     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x0800534c     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005350     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005354     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005358     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x0800535c     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005360     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005364     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005368     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x0800536c     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005370     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005374     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005378     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x0800537c     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005380     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005384     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005388     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x0800538c     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005390     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005394     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005398     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x0800539c     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x080053a0     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x080053a4     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x080053a8     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x080053ac     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x080053b0     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x080053b4     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x080053b8     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x080053bc     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x080053c0     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x080053c4     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x080053c8     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x080053cc     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x080053d0     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x080053d4     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x080053d8     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x080053dc     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x080053e0     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x080053e4     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x080053e8     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x080053ec     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x080053f0     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x080053f4     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x080053f8     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x080053fc     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005400     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005404     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005408     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x0800540c     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005410     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005414     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005418     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x0800541c     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005420     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005424     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005428     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x0800542c     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005430     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005434     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005438     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x0800543c     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005440     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005444     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005448     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x0800544c     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005450     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005454     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005458     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x0800545c     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005460     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005464     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x08005468     0x4  startup_stm32f40xx.o [1]
+  .text               ro code  0x0800546c     0x4  startup_stm32f40xx.o [1]
+  .rodata             const    0x08005470     0x0  zero_init3.o [6]
+  .rodata             const    0x08005470     0x0  copy_init3.o [6]
+  Initializer bytes   ro data  0x08005470    0xe0  <for P2 s0>
+                             - 0x08005550  0x53c8
+
+"P2", part 1 of 3:                           0xe0
+  P2 s0                        0x20000000    0xe0  <Init block>
+    __DLIB_PERTHREAD  inited   0x20000000    0x74  setlocale.o [4]
+    .data             inited   0x20000074    0x30  dgSaijoApp.o [1]
+    .data             inited   0x200000a4    0x10  stm324xab_eval.o [1]
+    .data             inited   0x200000b4    0x10  stm32f4xx_rcc.o [1]
+    .data             inited   0x200000c4     0xc  sx1App.o [1]
+    .data             inited   0x200000d0     0x8  stm324xab_eval.o [1]
+    __DLIB_PERTHREAD  inited   0x200000d8     0x4  errno.o [4]
+    .data             inited   0x200000dc     0x1  dgSaijoApp.o [1]
+    .data             inited   0x200000dd     0x1  sx1App.o [1]
+                             - 0x200000e0    0xe0
+
+"P2", part 2 of 3:                         0x1758
+  .bss                zero     0x200000e0  0x1000  dgZigbeeApi.o [1]
+  .bss                zero     0x200010e0   0x100  dgSaijoApp.o [1]
+  .bss                zero     0x200011e0   0x100  dgSaijoApp.o [1]
+  .bss                zero     0x200012e0   0x100  dgZigbeeApi.o [1]
+  .bss                zero     0x200013e0   0x100  dgZigbeeApi.o [1]
+  .bss                zero     0x200014e0   0x100  dgZigbeeApi.o [1]
+  .bss                zero     0x200015e0    0x40  dgSIC4310App.o [1]
+  .bss                zero     0x20001620    0x40  dgSIC4310App.o [1]
+  .bss                zero     0x20001660    0x34  sx1App.o [1]
+  .bss                zero     0x20001694    0x34  sx1App.o [1]
+  .bss                zero     0x200016c8    0x34  sx1App.o [1]
+  .bss                zero     0x200016fc    0x24  sx1App.o [1]
+  .bss                zero     0x20001720    0x20  dgSaijoApp.o [1]
+  .bss                zero     0x20001740    0x20  main_abEvalTest.o [1]
+  .bss                zero     0x20001760    0x20  main_abEvalTest.o [1]
+  .bss                zero     0x20001780    0x20  stm324xab_eval.o [1]
+  .bss                zero     0x200017a0    0x10  main_abEvalTest.o [1]
+  .bss                zero     0x200017b0     0xc  main_abEvalTest.o [1]
+  .bss                zero     0x200017bc     0xc  main_abEvalTest.o [1]
+  .bss                zero     0x200017c8     0xc  main_abEvalTest.o [1]
+  .bss                zero     0x200017d4     0x8  xxmemxmalloc.o [4]
+  .bss                zero     0x200017dc     0x4  main_abEvalTest.o [1]
+  .bss                zero     0x200017e0     0x4  main_abEvalTest.o [1]
+  .bss                zero     0x200017e4     0x4  main_abEvalTest.o [1]
+  .bss                zero     0x200017e8     0x4  main_abEvalTest.o [1]
+  .bss                zero     0x200017ec     0x4  main_abEvalTest.o [1]
+  .bss                zero     0x200017f0     0x4  stm324xab_eval.o [1]
+  .bss                zero     0x200017f4     0x4  sx1App.o [1]
+  .bss                zero     0x200017f8     0x4  sx1App.o [1]
+  .bss                zero     0x200017fc     0x4  sx1App.o [1]
+  .bss                zero     0x20001800     0x4  sx1App.o [1]
+  .bss                zero     0x20001804     0x4  sx1App.o [1]
+  .bss                zero     0x20001808     0x4  xgetmemchunk.o [4]
+  .bss                zero     0x2000180c     0x2  dgZigbeeApi.o [1]
+  .bss                zero     0x2000180e     0x2  dgZigbeeApi.o [1]
+  .bss                zero     0x20001810     0x2  main_abEvalTest.o [1]
+  .bss                zero     0x20001812     0x2  main_abEvalTest.o [1]
+  .bss                zero     0x20001814     0x2  main_abEvalTest.o [1]
+  .bss                zero     0x20001816     0x2  main_abEvalTest.o [1]
+  .bss                zero     0x20001818     0x2  stm324xab_eval.o [1]
+  .bss                zero     0x2000181a     0x2  stm32f4xx_it.o [1]
+  .bss                zero     0x2000181c     0x2  sx1App.o [1]
+  .bss                zero     0x2000181e     0x1  dgSIC4310App.o [1]
+  .bss                zero     0x2000181f     0x1  dgSIC4310App.o [1]
+  .bss                zero     0x20001820     0x1  dgSIC4310App.o [1]
+  .bss                zero     0x20001821     0x1  dgSIC4310App.o [1]
+  .bss                zero     0x20001822     0x1  dgSIC4310App.o [1]
+  .bss                zero     0x20001823     0x1  dgSaijoApp.o [1]
+  .bss                zero     0x20001824     0x1  dgSaijoApp.o [1]
+  .bss                zero     0x20001825     0x1  dgSaijoApp.o [1]
+  .bss                zero     0x20001826     0x1  dgSaijoApp.o [1]
+  .bss                zero     0x20001827     0x1  dgSaijoApp.o [1]
+  .bss                zero     0x20001828     0x1  dgSaijoApp.o [1]
+  .bss                zero     0x20001829     0x1  dgSaijoApp.o [1]
+  .bss                zero     0x2000182a     0x1  dgSaijoApp.o [1]
+  .bss                zero     0x2000182b     0x1  dgZigbeeApi.o [1]
+  .bss                zero     0x2000182c     0x1  dgZigbeeApi.o [1]
+  .bss                zero     0x2000182d     0x1  dgZigbeeApi.o [1]
+  .bss                zero     0x2000182e     0x1  dgZigbeeApi.o [1]
+  .bss                zero     0x2000182f     0x1  dgZigbeeApi.o [1]
+  .bss                zero     0x20001830     0x1  main_abEvalTest.o [1]
+  .bss                zero     0x20001831     0x1  main_abEvalTest.o [1]
+  .bss                zero     0x20001832     0x1  sx1App.o [1]
+  .bss                zero     0x20001833     0x1  sx1App.o [1]
+  .bss                zero     0x20001834     0x1  sx1App.o [1]
+  .bss                zero     0x20001835     0x1  sx1App.o [1]
+  .bss                zero     0x20001836     0x1  sx1App.o [1]
+                             - 0x20001837  0x1757
+
+"P2", part 3 of 3:                         0x1000
+  CSTACK                       0x20001838   0x800  <Block>
+    CSTACK            uninit   0x20001838   0x800  <Block tail>
+  HEAP                         0x20002038   0x800  <Block>
+    HEAP              uninit   0x20002038   0x800  <Block tail>
+                             - 0x20002838  0x1000
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x1757:
+          0x200000e0  0x1757
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0xe0 (100% of destination):
+          0x08005470    0xe0
+    1 destination range, total size 0xde:
+          0x20000000    0xde
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                ro code  ro data  rw data
+    ------                -------  -------  -------
+E:\My document\TESA Top Gun\131022_2041_STM32F4xx_PowerMeter_OLED\STM32F4xx_PowerMeter_OLED\Project\STM32F4xx_StdPeriph_Templates\EWARM\STM324xAirBean_EVAL\Obj: [1]
+    dgSIC4310App.o            556               133
+    dgSaijoApp.o              772      121      601
+    dgZigbeeApi.o           1 330      164    4 873
+    main_abEvalTest.o       2 852      240      146
+    misc.o                    136
+    oledApp.o               1 518      624
+    startup_stm32f40xx.o      772
+    stm324xab_eval.o        1 036       48       62
+    stm32f4xx_exti.o          204
+    stm32f4xx_gpio.o          300
+    stm32f4xx_i2c.o           494
+    stm32f4xx_it.o             40                 2
+    stm32f4xx_rcc.o           380       16       16
+    stm32f4xx_syscfg.o         84
+    stm32f4xx_usart.o         518
+    sx1App.o                3 644       13      232
+    system_stm32f4xx.o        340
+    -----------------------------------------------
+    Total:                 14 976    1 226    6 065
+
+E:\My document\TESA Top Gun\131022_2041_STM32F4xx_PowerMeter_OLED\STM32F4xx_PowerMeter_OLED\userLib: [2]
+    dgHelper.o                314
+    -----------------------------------------------
+    Total:                    314
+
+command line: [3]
+    -----------------------------------------------
+    Total:
+
+dl7M_tlf.a: [4]
+    atoi.o                      8
+    errno.o                    12        4        4
+    exit.o                      4
+    isxxx.o                    20
+    low_level_init.o            4
+    setlocale.o                36      116      116
+    sprintf.o                  52
+    strcat.o                   28
+    tolower.o                  20
+    toupper.o                  24
+    xencoding_sb.o             96
+    xgetmemchunk.o             44                 4
+    xlocale_c.o                32
+    xmbcurmax.o                10
+    xmbtowc.o                  32
+    xprintfsmall.o          1 864
+    xsprout.o                  10
+    xstoul.o                  364
+    xtls.o                      2
+    xwctomb.o                  26
+    xxmemxfree.o              128
+    xxmemxmalloc.o            176                 8
+    -----------------------------------------------
+    Total:                  2 992      120      132
+
+m7M_tlv.a: [5]
+    DblAdd.o                  232
+    DblMul.o                  418
+    DblSub.o                  364
+    DblToFlt.o                144
+    DblToI32.o                 44
+    FltToDbl.o                 78
+    I32ToDbl.o                 44
+    fpinit_M.o                 26
+    -----------------------------------------------
+    Total:                  1 350
+
+rt7M_tl.a: [6]
+    ABImemcpy.o               118
+    ABImemset.o                94
+    cexit.o                    10
+    cmain.o                    22
+    copy_init3.o               46
+    cstartup_M.o               12
+    data_init.o                40
+    memchr.o                   88
+    strchr.o                   22
+    strcmp.o                   66
+    strcpy.o                   68
+    strlen.o                   54
+    strncpy.o                 108
+    zero_init3.o               34
+    -----------------------------------------------
+    Total:                    782
+
+shb_l.a: [7]
+    exit.o                     20
+    -----------------------------------------------
+    Total:                     20
+
+    Gaps                       22
+    Linker created                      38    4 096
+---------------------------------------------------
+    Grand Total:           20 456    1 384   10 293
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+?main                   0x080050d1         Code  Gb  cmain.o [6]
+ACKBuffer               0x200016c8   0x34  Data  Gb  sx1App.o [1]
+ADC_IRQHandler          0x08005371         Code  Wk  startup_stm32f40xx.o [1]
+APBAHBPrescTable        0x200000b4   0x10  Data  Lc  stm32f4xx_rcc.o [1]
+AirBuffZb               0x20001740   0x20  Data  Gb  main_abEvalTest.o [1]
+BlueBtnPressed          0x20001830    0x1  Data  Gb  main_abEvalTest.o [1]
+BusFault_Handler        0x080014b1    0x2  Code  Gb  stm32f4xx_it.o [1]
+CAN1_RX0_IRQHandler     0x08005379         Code  Wk  startup_stm32f40xx.o [1]
+CAN1_RX1_IRQHandler     0x0800537d         Code  Wk  startup_stm32f40xx.o [1]
+CAN1_SCE_IRQHandler     0x08005381         Code  Wk  startup_stm32f40xx.o [1]
+CAN1_TX_IRQHandler      0x08005375         Code  Wk  startup_stm32f40xx.o [1]
+CAN2_RX0_IRQHandler     0x08005429         Code  Wk  startup_stm32f40xx.o [1]
+CAN2_RX1_IRQHandler     0x0800542d         Code  Wk  startup_stm32f40xx.o [1]
+CAN2_SCE_IRQHandler     0x08005431         Code  Wk  startup_stm32f40xx.o [1]
+CAN2_TX_IRQHandler      0x08005425         Code  Wk  startup_stm32f40xx.o [1]
+CRYP_IRQHandler         0x08005465         Code  Wk  startup_stm32f40xx.o [1]
+CSTACK$$Base            0x20001838          --   Gb  - Linker created -
+CSTACK$$Limit           0x20002038          --   Gb  - Linker created -
+Calculate_Power         0x08001f41  0x38c  Code  Gb  main_abEvalTest.o [1]
+CheckACK                0x080007d3   0x74  Code  Lc  sx1App.o [1]
+Cost_Power              0x200017e4    0x4  Data  Gb  main_abEvalTest.o [1]
+Cost_Power_Ch           0x200017b0    0xc  Data  Gb  main_abEvalTest.o [1]
+DCMI_IRQHandler         0x08005461         Code  Wk  startup_stm32f40xx.o [1]
+DMA1_Stream0_IRQHandler
+                        0x08005355         Code  Wk  startup_stm32f40xx.o [1]
+DMA1_Stream1_IRQHandler
+                        0x08005359         Code  Wk  startup_stm32f40xx.o [1]
+DMA1_Stream2_IRQHandler
+                        0x0800535d         Code  Wk  startup_stm32f40xx.o [1]
+DMA1_Stream3_IRQHandler
+                        0x08005361         Code  Wk  startup_stm32f40xx.o [1]
+DMA1_Stream4_IRQHandler
+                        0x08005365         Code  Wk  startup_stm32f40xx.o [1]
+DMA1_Stream5_IRQHandler
+                        0x08005369         Code  Wk  startup_stm32f40xx.o [1]
+DMA1_Stream6_IRQHandler
+                        0x0800536d         Code  Wk  startup_stm32f40xx.o [1]
+DMA1_Stream7_IRQHandler
+                        0x080053e5         Code  Wk  startup_stm32f40xx.o [1]
+DMA2_Stream0_IRQHandler
+                        0x08005409         Code  Wk  startup_stm32f40xx.o [1]
+DMA2_Stream1_IRQHandler
+                        0x0800540d         Code  Wk  startup_stm32f40xx.o [1]
+DMA2_Stream2_IRQHandler
+                        0x08005411         Code  Wk  startup_stm32f40xx.o [1]
+DMA2_Stream3_IRQHandler
+                        0x08005415         Code  Wk  startup_stm32f40xx.o [1]
+DMA2_Stream4_IRQHandler
+                        0x08005419         Code  Wk  startup_stm32f40xx.o [1]
+DMA2_Stream5_IRQHandler
+                        0x08005439         Code  Wk  startup_stm32f40xx.o [1]
+DMA2_Stream6_IRQHandler
+                        0x0800543d         Code  Wk  startup_stm32f40xx.o [1]
+DMA2_Stream7_IRQHandler
+                        0x08005441         Code  Wk  startup_stm32f40xx.o [1]
+DataBuffer              0x200016fc   0x24  Data  Gb  sx1App.o [1]
+DebugMon_Handler        0x080014b7    0x2  Code  Gb  stm32f4xx_it.o [1]
+DecodeEnergyValue       0x08000847  0x23a  Code  Lc  sx1App.o [1]
+ETH_IRQHandler          0x0800541d         Code  Wk  startup_stm32f40xx.o [1]
+ETH_WKUP_IRQHandler     0x08005421         Code  Wk  startup_stm32f40xx.o [1]
+EXTI0_IRQHandler        0x080026e9   0x34  Code  Gb  stm324xab_eval.o [1]
+EXTI15_10_IRQHandler    0x0800271d   0x14  Code  Gb  stm324xab_eval.o [1]
+EXTI1_IRQHandler        0x08005345         Code  Wk  startup_stm32f40xx.o [1]
+EXTI2_IRQHandler        0x08005349         Code  Wk  startup_stm32f40xx.o [1]
+EXTI3_IRQHandler        0x0800534d         Code  Wk  startup_stm32f40xx.o [1]
+EXTI4_IRQHandler        0x08005351         Code  Wk  startup_stm32f40xx.o [1]
+EXTI9_5_IRQHandler      0x08005385         Code  Wk  startup_stm32f40xx.o [1]
+EXTI_ClearITPendingBit  0x08003ab5    0x6  Code  Gb  stm32f4xx_exti.o [1]
+EXTI_GetITStatus        0x08003a8d   0x28  Code  Gb  stm32f4xx_exti.o [1]
+EXTI_Init               0x08003a05   0x88  Code  Gb  stm32f4xx_exti.o [1]
+EnergyValue             0x200017f4    0x4  Data  Gb  sx1App.o [1]
+Energy_Init             0x200017dc    0x4  Data  Gb  main_abEvalTest.o [1]
+FLASH_IRQHandler        0x08005339         Code  Wk  startup_stm32f40xx.o [1]
+FPU_IRQHandler          0x0800546d         Code  Wk  startup_stm32f40xx.o [1]
+FSMC_IRQHandler         0x080053e9         Code  Wk  startup_stm32f40xx.o [1]
+FlagNFCUpdated          0x20001822    0x1  Data  Gb  dgSIC4310App.o [1]
+GPIO_Init               0x08001141   0xaa  Code  Gb  stm32f4xx_gpio.o [1]
+GPIO_PIN                0x080052fc    0x8  Data  Gb  stm324xab_eval.o [1]
+GPIO_PORT               0x200000a4   0x10  Data  Gb  stm324xab_eval.o [1]
+GPIO_PinAFConfig        0x08001213   0x5a  Code  Gb  stm32f4xx_gpio.o [1]
+GPIO_ReadInputDataBit   0x080011eb   0x1a  Code  Gb  stm32f4xx_gpio.o [1]
+GPIO_WriteBit           0x08001205    0xe  Code  Gb  stm32f4xx_gpio.o [1]
+HASH_RNG_IRQHandler     0x08005469         Code  Wk  startup_stm32f40xx.o [1]
+HEAP$$Base              0x20002038          --   Gb  - Linker created -
+HEAP$$Limit             0x20002838          --   Gb  - Linker created -
+HardFault_Handler       0x080014ab    0x4  Code  Gb  stm32f4xx_it.o [1]
+I2C1_ER_IRQHandler      0x080053a9         Code  Wk  startup_stm32f40xx.o [1]
+I2C1_EV_IRQHandler      0x080053a5         Code  Wk  startup_stm32f40xx.o [1]
+I2C2_ER_IRQHandler      0x080053b1         Code  Wk  startup_stm32f40xx.o [1]
+I2C2_EV_IRQHandler      0x080053ad         Code  Wk  startup_stm32f40xx.o [1]
+I2C3_ER_IRQHandler      0x0800544d         Code  Wk  startup_stm32f40xx.o [1]
+I2C3_EV_IRQHandler      0x08005449         Code  Wk  startup_stm32f40xx.o [1]
+I2C_CheckEvent          0x08003ff5   0x38  Code  Gb  stm32f4xx_i2c.o [1]
+I2C_Cmd                 0x08003f85   0x1c  Code  Gb  stm32f4xx_i2c.o [1]
+I2C_GenerateSTART       0x08003fa1   0x1c  Code  Gb  stm32f4xx_i2c.o [1]
+I2C_GenerateSTOP        0x08003fbd   0x1c  Code  Gb  stm32f4xx_i2c.o [1]
+I2C_GetFlagStatus       0x0800402d   0x46  Code  Gb  stm32f4xx_i2c.o [1]
+I2C_Init                0x08003e85   0xf2  Code  Gb  stm32f4xx_i2c.o [1]
+I2C_Send7bitAddress     0x08003fd9   0x16  Code  Gb  stm32f4xx_i2c.o [1]
+I2C_SendData            0x08003fef    0x6  Code  Gb  stm32f4xx_i2c.o [1]
+I2C_start               0x08003547   0x50  Code  Gb  oledApp.o [1]
+I2C_stop                0x08003959    0xe  Code  Gb  oledApp.o [1]
+I2C_write               0x08003597   0x20  Code  Gb  oledApp.o [1]
+Init_ReSetPin           0x0800347d   0x34  Code  Gb  oledApp.o [1]
+IsNFCUpdated            0x080032fd    0x6  Code  Gb  dgSIC4310App.o [1]
+Make_PowermeterPacket   0x08000af1  0x3b0  Code  Gb  sx1App.o [1]
+MemManage_Handler       0x080014af    0x2  Code  Gb  stm32f4xx_it.o [1]
+MeterBuffZb             0x20001760   0x20  Data  Gb  main_abEvalTest.o [1]
+Money                   0x080022d5  0x146  Code  Gb  main_abEvalTest.o [1]
+Money_InSystem          0x20001810    0x2  Data  Gb  main_abEvalTest.o [1]
+Money_Input             0x200017c8    0xc  Data  Gb  main_abEvalTest.o [1]
+NMI_Handler             0x080014a9    0x2  Code  Gb  stm32f4xx_it.o [1]
+NVIC_Init               0x080014db   0x6a  Code  Gb  misc.o [1]
+NVIC_InitStructure      0x200017f0    0x4  Data  Gb  stm324xab_eval.o [1]
+NVIC_PriorityGroupConfig
+                        0x080014d1    0xa  Code  Gb  misc.o [1]
+NVIC_SetPriority        0x08001a45   0x26  Code  Lc  main_abEvalTest.o [1]
+OTG_FS_IRQHandler       0x08005435         Code  Wk  startup_stm32f40xx.o [1]
+OTG_FS_WKUP_IRQHandler  0x080053d1         Code  Wk  startup_stm32f40xx.o [1]
+OTG_HS_EP1_IN_IRQHandler
+                        0x08005455         Code  Wk  startup_stm32f40xx.o [1]
+OTG_HS_EP1_OUT_IRQHandler
+                        0x08005451         Code  Wk  startup_stm32f40xx.o [1]
+OTG_HS_IRQHandler       0x0800545d         Code  Wk  startup_stm32f40xx.o [1]
+OTG_HS_WKUP_IRQHandler  0x08005459         Code  Wk  startup_stm32f40xx.o [1]
+Oled_SSD1305_Init       0x080033c1   0xbc  Code  Gb  oledApp.o [1]
+PVD_IRQHandler          0x0800532d         Code  Wk  startup_stm32f40xx.o [1]
+PendSV_Handler          0x080014b9    0x2  Code  Gb  stm32f4xx_it.o [1]
+Power_Use               0x200017e0    0x4  Data  Gb  main_abEvalTest.o [1]
+RCC_AHB1PeriphClockCmd  0x080010c5   0x1e  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_APB1PeriphClockCmd  0x080010e3   0x1e  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x08001101   0x1e  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_Clocks              0x200017a0   0x10  Data  Gb  main_abEvalTest.o [1]
+RCC_GetClocksFreq       0x08000fc5  0x100  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_IRQHandler          0x0800533d         Code  Wk  startup_stm32f40xx.o [1]
+RS485_USART_Config      0x08000701   0xd2  Code  Lc  sx1App.o [1]
+RTC_Alarm_IRQHandler    0x080053cd         Code  Wk  startup_stm32f40xx.o [1]
+RTC_WKUP_IRQHandler     0x08005335         Code  Wk  startup_stm32f40xx.o [1]
+Region$$Table$$Base     0x08005074          --   Gb  - Linker created -
+Region$$Table$$Limit    0x08005098          --   Gb  - Linker created -
+Remain                  0x200017e8    0x4  Data  Gb  main_abEvalTest.o [1]
+Remain_Ch               0x200017bc    0xc  Data  Gb  main_abEvalTest.o [1]
+Reset_Handler           0x08005195         Code  Wk  startup_stm32f40xx.o [1]
+SDIO_IRQHandler         0x080053ed         Code  Wk  startup_stm32f40xx.o [1]
+SIC4310_ResetBuffer     0x08003381   0x1a  Code  Gb  dgSIC4310App.o [1]
+SIC4310_Send            0x080032c5   0x2a  Code  Lc  dgSIC4310App.o [1]
+SIC4310_WaitSend        0x080032ef    0xe  Code  Lc  dgSIC4310App.o [1]
+SPI1_IRQHandler         0x080053b5         Code  Wk  startup_stm32f40xx.o [1]
+SPI2_IRQHandler         0x080053b9         Code  Wk  startup_stm32f40xx.o [1]
+SPI3_IRQHandler         0x080053f5         Code  Wk  startup_stm32f40xx.o [1]
+SVC_Handler             0x080014b5    0x2  Code  Gb  stm32f4xx_it.o [1]
+SYSCFG_EXTILineConfig   0x080039b1   0x50  Code  Gb  stm32f4xx_syscfg.o [1]
+SetSysClock             0x08004f23   0xce  Code  Lc  system_stm32f4xx.o [1]
+SysTick_Config          0x08001a6b   0x38  Code  Lc  main_abEvalTest.o [1]
+SysTick_Handler         0x080014bb    0xc  Code  Gb  stm32f4xx_it.o [1]
+SystemInit              0x08004ed1   0x52  Code  Gb  system_stm32f4xx.o [1]
+TAMP_STAMP_IRQHandler   0x08005331         Code  Wk  startup_stm32f40xx.o [1]
+TIM1_BRK_TIM9_IRQHandler
+                        0x08005389         Code  Wk  startup_stm32f40xx.o [1]
+TIM1_CC_IRQHandler      0x08005395         Code  Wk  startup_stm32f40xx.o [1]
+TIM1_TRG_COM_TIM11_IRQHandler
+                        0x08005391         Code  Wk  startup_stm32f40xx.o [1]
+TIM1_UP_TIM10_IRQHandler
+                        0x0800538d         Code  Wk  startup_stm32f40xx.o [1]
+TIM2_IRQHandler         0x08005399         Code  Wk  startup_stm32f40xx.o [1]
+TIM3_IRQHandler         0x0800539d         Code  Wk  startup_stm32f40xx.o [1]
+TIM4_IRQHandler         0x080053a1         Code  Wk  startup_stm32f40xx.o [1]
+TIM5_IRQHandler         0x080053f1         Code  Wk  startup_stm32f40xx.o [1]
+TIM6_DAC_IRQHandler     0x08005401         Code  Wk  startup_stm32f40xx.o [1]
+TIM7_IRQHandler         0x08005405         Code  Wk  startup_stm32f40xx.o [1]
+TIM8_BRK_TIM12_IRQHandler
+                        0x080053d5         Code  Wk  startup_stm32f40xx.o [1]
+TIM8_CC_IRQHandler      0x080053e1         Code  Wk  startup_stm32f40xx.o [1]
+TIM8_TRG_COM_TIM14_IRQHandler
+                        0x080053dd         Code  Wk  startup_stm32f40xx.o [1]
+TIM8_UP_TIM13_IRQHandler
+                        0x080053d9         Code  Wk  startup_stm32f40xx.o [1]
+Time_Rec_Base           0x2000181a    0x2  Data  Gb  stm32f4xx_it.o [1]
+UART4_IRQHandler        0x08003319   0x68  Code  Gb  dgSIC4310App.o [1]
+UART5_IRQHandler        0x080053fd         Code  Wk  startup_stm32f40xx.o [1]
+USART1_IRQHandler       0x080053bd         Code  Wk  startup_stm32f40xx.o [1]
+USART2_IRQHandler       0x080030cb   0x68  Code  Gb  dgSaijoApp.o [1]
+USART3_IRQHandler       0x08000eb9   0x96  Code  Gb  sx1App.o [1]
+USART6_IRQHandler       0x08002dc7   0x5e  Code  Gb  dgZigbeeApi.o [1]
+USART_Cmd               0x08001371   0x1c  Code  Gb  stm32f4xx_usart.o [1]
+USART_GetITStatus       0x0800140d   0x6e  Code  Gb  stm32f4xx_usart.o [1]
+USART_ITConfig          0x080013b7   0x56  Code  Gb  stm32f4xx_usart.o [1]
+USART_Init              0x08001275   0xee  Code  Gb  stm32f4xx_usart.o [1]
+USART_OverSampling8Cmd  0x0800138d   0x1a  Code  Gb  stm32f4xx_usart.o [1]
+USART_ReceiveData       0x080013af    0x8  Code  Gb  stm32f4xx_usart.o [1]
+USART_SendData          0x080013a7    0x8  Code  Gb  stm32f4xx_usart.o [1]
+UsageFault_Handler      0x080014b3    0x2  Code  Gb  stm32f4xx_it.o [1]
+WWDG_IRQHandler         0x08005329         Code  Wk  startup_stm32f40xx.o [1]
+ZB_GetRxBuff            0x08002d93   0x34  Code  Lc  dgZigbeeApi.o [1]
+ZB_PushRxBuff           0x08002d75   0x1e  Code  Lc  dgZigbeeApi.o [1]
+ZB_Send                 0x08002d3d   0x2a  Code  Lc  dgZigbeeApi.o [1]
+ZB_WaitSend             0x08002d67    0xe  Code  Lc  dgZigbeeApi.o [1]
+_EncodingSb_Mbtowc      0x08004c17   0x30  Code  Gb  xencoding_sb.o [4]
+_EncodingSb_Wctomb      0x08004bfd   0x1a  Code  Gb  xencoding_sb.o [4]
+_IsdstStr               0x20000004    0x4  Data  Gb  setlocale.o [4]
+_LitobSmall             0x080046c3   0xce  Code  Lc  xprintfsmall.o [4]
+_LocaleC_isspace        0x08001a21   0x14  Code  Gb  xlocale_c.o [4]
+_LocaleC_tolower        0x08001a35    0xc  Code  Gb  xlocale_c.o [4]
+_LocaleEncoding         0x08001a0f    0xe  Code  Gb  setlocale.o [4]
+_LocaleForCat           0x080019fd   0x12  Code  Gb  setlocale.o [4]
+_LocaleReturnString     0x20000024   0x50  Data  Lc  setlocale.o [4]
+_Locale_Profile         0x20000008   0x1c  Data  Gb  setlocale.o [4]
+_Mbtowc                 0x08004a5b   0x20  Code  Gb  xmbtowc.o [4]
+_PrintfSmall            0x08004091  0x3f6  Code  Gb  xprintfsmall.o [4]
+_PutcharsSmall          0x08004791   0x2e  Code  Lc  xprintfsmall.o [4]
+_PutstrSmall            0x08004491  0x232  Code  Lc  xprintfsmall.o [4]
+_SProut                 0x0800176b    0xa  Code  Gb  xsprout.o [4]
+_TzoneStr               0x20000000    0x4  Data  Gb  setlocale.o [4]
+_Wctomb                 0x08004b4d   0x1a  Code  Gb  xwctomb.o [4]
+__aeabi_d2f             0x08001775         Code  Gb  DblToFlt.o [5]
+__aeabi_d2uiz           0x08003d0d         Code  Gb  DblToI32.o [5]
+__aeabi_dadd            0x08003c25         Code  Gb  DblAdd.o [5]
+__aeabi_dmul            0x080015c9         Code  Gb  DblMul.o [5]
+__aeabi_errno_addr      0x080019f1    0x6  Code  Gb  errno.o [4]
+__aeabi_f2d             0x08001559         Code  Gb  FltToDbl.o [5]
+__aeabi_i2d             0x08003bf9         Code  Gb  I32ToDbl.o [5]
+__aeabi_memcpy          0x080049e5         Code  Gb  ABImemcpy.o [6]
+__aeabi_memcpy4         0x08004a05         Code  Gb  ABImemcpy.o [6]
+__aeabi_memcpy8         0x08004a05         Code  Gb  ABImemcpy.o [6]
+__cmain                 0x080050d1         Code  Gb  cmain.o [6]
+__data_Aldata           0x200017d4    0x8  Data  Gb  xxmemxmalloc.o [4]
+__data_GetMemChunk      0x08004c5d   0x2c  Code  Gb  xgetmemchunk.o [4]
+__exit                  0x080050fd   0x14  Code  Gb  exit.o [7]
+__iar_Errno             0x200000d8    0x4  Data  Gb  errno.o [4]
+__iar_Mbcurmax          0x08004a93    0xa  Code  Gb  xmbcurmax.o [4]
+__iar_Memchr            0x08001999         Code  Gb  memchr.o [6]
+__iar_Memset_word       0x080047d9         Code  Gb  ABImemset.o [6]
+__iar_Stoul             0x0800191d    0x4  Code  Gb  xstoul.o [4]
+__iar_Stoulx            0x08001805  0x112  Code  Gb  xstoul.o [4]
+__iar_Strchr            0x08004a7d         Code  Gb  strchr.o [6]
+__iar_copy_init3        0x0800147b   0x2e  Code  Gb  copy_init3.o [6]
+__iar_d2uiz             0x08003d19         Code  Gb  DblToI32.o [5]
+__iar_dadd              0x08003c39         Code  Gb  DblAdd.o [5]
+__iar_data_init3        0x0800504d   0x28  Code  Gb  data_init.o [6]
+__iar_dlib_perthread_access
+                        0x08001a41    0x2  Code  Gb  xtls.o [4]
+__iar_dsub              0x08004839         Code  Gb  DblSub.o [5]
+__iar_dsubStart         0x0800484b         Code  Gb  DblSub.o [5]
+__iar_init_vfp          0x080050b5         Code  Gb  fpinit_M.o [5]
+__iar_program_start     0x08005211         Code  Gb  cstartup_M.o [6]
+__iar_strcmp            0x08003ad1         Code  Gb  strcmp.o [6]
+__iar_ui2d              0x08003c0d         Code  Gb  I32ToDbl.o [5]
+__iar_zero_init3        0x080015a7   0x22  Code  Gb  zero_init3.o [6]
+__low_level_init        0x080050e7    0x4  Code  Gb  low_level_init.o [4]
+__vector_table          0x08000000         Data  Gb  startup_stm32f40xx.o [1]
+_call_main              0x080050dd         Code  Gb  cmain.o [6]
+_exit                   0x080050f1         Code  Gb  cexit.o [6]
+_main                   0x080050e3         Code  Gb  cmain.o [6]
+aRxBuffer               0x20001660   0x34  Data  Gb  sx1App.o [1]
+abEval_AllBoardInit     0x08001b0f   0x24  Code  Lc  main_abEvalTest.o [1]
+abEval_IOInit           0x08002569  0x180  Code  Gb  stm324xab_eval.o [1]
+abEval_IOProcess        0x08002779  0x1c4  Code  Gb  stm324xab_eval.o [1]
+abEval_RelaySet         0x08002731   0x1a  Code  Gb  stm324xab_eval.o [1]
+abEval_RelayToggle      0x0800274b   0x2e  Code  Gb  stm324xab_eval.o [1]
+abEval_UIInit           0x08001b33   0xd2  Code  Lc  main_abEvalTest.o [1]
+abEval_getRelay         0x0800293d    0xc  Code  Gb  stm324xab_eval.o [1]
+airStat                 0x20001823    0x1  Data  Gb  dgSaijoApp.o [1]
+all_clear               0x08003967   0x2a  Code  Gb  oledApp.o [1]
+appDisplayInit          0x08001d81   0x10  Code  Lc  main_abEvalTest.o [1]
+appDisplayProcess       0x08001d91  0x1ac  Code  Lc  main_abEvalTest.o [1]
+atoi                    0x0800126d    0x8  Code  Gb  atoi.o [4]
+clr_FlagNFCUpdated      0x0800330b    0xe  Code  Gb  dgSIC4310App.o [1]
+constMeterID            0x200000c4    0xc  Data  Lc  sx1App.o [1]
+correntScanID           0x20001834    0x1  Data  Lc  sx1App.o [1]
+counter_report          0x200017ec    0x4  Data  Gb  main_abEvalTest.o [1]
+currentAirStatus        0x20001828    0x1  Data  Lc  dgSaijoApp.o [1]
+currentFanSpeed         0x200000dc    0x1  Data  Lc  dgSaijoApp.o [1]
+currentMeterID          0x200017f8    0x4  Data  Lc  sx1App.o [1]
+deCodeMeterCurrent      0x080002e9   0x6a  Code  Gb  sx1App.o [1]
+deCodeMeterSerialNumber
+                        0x080001f5   0x8a  Code  Gb  sx1App.o [1]
+deCodeMeterVoltage      0x0800027f   0x6a  Code  Gb  sx1App.o [1]
+delay                   0x08003991   0x1e  Code  Lc  oledApp.o [1]
+dgSIC4310IncomingHandler
+                        0x08003261   0x64  Code  Gb  dgSIC4310App.o [1]
+dgSaijoIncomingHandler  0x08002fa3   0xc0  Code  Gb  dgSaijoApp.o [1]
+dgSaijoInit             0x08002ed3   0xd0  Code  Gb  dgSaijoApp.o [1]
+dgSaijo_FanLev          0x08003087   0x1a  Code  Gb  dgSaijoApp.o [1]
+dgSaijo_Power_Off       0x08003075   0x12  Code  Gb  dgSaijoApp.o [1]
+dgSaijo_Power_On        0x08003063   0x12  Code  Gb  dgSaijoApp.o [1]
+dgSic4310Init           0x08003195   0xcc  Code  Gb  dgSIC4310App.o [1]
+dgZigbeeApiIncomingHandler
+                        0x08002a55  0x2be  Code  Gb  dgZigbeeApi.o [1]
+dgZigbeeApiInit         0x08002975   0xe0  Code  Gb  dgZigbeeApi.o [1]
+dgZigbeeApiSendString   0x08002d13   0x2a  Code  Gb  dgZigbeeApi.o [1]
+dgZigbeeTick_Air        0x08001c05  0x10c  Code  Lc  main_abEvalTest.o [1]
+dgZigbeeTick_Meter      0x08001d11   0x70  Code  Lc  main_abEvalTest.o [1]
+digits                  0x08001920   0x28  Data  Lc  xstoul.o [4]
+display_one_letter      0x0800365f   0xc2  Code  Gb  oledApp.o [1]
+display_valiable        0x0800375b  0x106  Code  Gb  oledApp.o [1]
+emberGetIncommingArg    0x08003db9   0x34  Code  Gb  dgHelper.o [2]
+exit                    0x080050eb    0x4  Code  Gb  exit.o [4]
+extractPayload          0x08003d6f   0x4a  Code  Gb  dgHelper.o [2]
+formatIncomingString    0x08003ded   0x30  Code  Gb  dgHelper.o [2]
+free                    0x08004b69   0x7a  Code  Gb  xxmemxfree.o [4]
+fullMeterId             0x200017fc    0x4  Data  Lc  sx1App.o [1]
+getAirFanSpeed          0x08002e97   0x3c  Code  Gb  dgSaijoApp.o [1]
+getMeterCurrent         0x080001a1    0x8  Code  Gb  sx1App.o [1]
+getMeterId              0x08000189    0x8  Code  Gb  sx1App.o [1]
+getMeterVoltage         0x08000199    0x8  Code  Gb  sx1App.o [1]
+getVar_EnergyValue      0x08000191    0x8  Code  Gb  sx1App.o [1]
+getVar_Time_Rec_Base    0x080014c7    0x6  Code  Gb  stm32f4xx_it.o [1]
+getVar_meterStatus      0x080001a9    0x8  Code  Gb  sx1App.o [1]
+hextobyte               0x08003e1d   0x52  Code  Gb  dgHelper.o [2]
+i                       0x20001831    0x1  Data  Gb  main_abEvalTest.o [1]
+init_I2C1               0x080034b1   0x96  Code  Gb  oledApp.o [1]
+ioStat                  0x200000d0    0x8  Data  Gb  stm324xab_eval.o [1]
+isAirPowerON            0x08002e91    0x6  Code  Gb  dgSaijoApp.o [1]
+isdigit                 0x08004be9   0x12  Code  Gb  dgHelper.o [2]
+isspace                 0x08001971   0x14  Code  Gb  isxxx.o [4]
+isxdigit                0x080049a5   0x28  Code  Gb  dgHelper.o [2]
+itoazz                  0x080038c3   0x5c  Code  Gb  oledApp.o [1]
+lcd_Str                 0x08003721   0x3a  Code  Gb  oledApp.o [1]
+main                    0x08001aa3   0x6c  Code  Gb  main_abEvalTest.o [1]
+malloc                  0x08004a9d   0xac  Code  Gb  xxmemxmalloc.o [4]
+memchr                  0x08001999         Code  Gb  memchr.o [6]
+memcpy                  0x08003e6f   0x16  Code  Gb  dgZigbeeApi.o [1]
+meterStat               0x200000dd    0x1  Data  Gb  sx1App.o [1]
+mid                     0x08003861   0x62  Code  Gb  oledApp.o [1]
+ndigs                   0x08001948   0x28  Data  Lc  xstoul.o [4]
+pSensorSoftBuffer       0x20001694   0x34  Data  Gb  sx1App.o [1]
+powermeter_calBcc       0x08000a81   0x1a  Code  Gb  sx1App.o [1]
+powermeter_calCrc       0x08000a9b   0x56  Code  Gb  sx1App.o [1]
+readingCurrent          0x20001804    0x4  Data  Lc  sx1App.o [1]
+readingVoltege          0x20001800    0x4  Data  Lc  sx1App.o [1]
+reportIO_Zb             0x20001780   0x20  Data  Gb  stm324xab_eval.o [1]
+saijoBuffRxIn           0x20001826    0x1  Data  Gb  dgSaijoApp.o [1]
+saijoBuffRxOut          0x20001827    0x1  Data  Gb  dgSaijoApp.o [1]
+saijoBuffTxIdx          0x20001824    0x1  Data  Gb  dgSaijoApp.o [1]
+saijoRxBuff             0x200011e0  0x100  Data  Gb  dgSaijoApp.o [1]
+saijoTxBuff             0x200010e0  0x100  Data  Gb  dgSaijoApp.o [1]
+saijoTxBuffLen          0x20001825    0x1  Data  Gb  dgSaijoApp.o [1]
+saijo_Send              0x080030a1   0x2a  Code  Lc  dgSaijoApp.o [1]
+saijo_buff_fan          0x20000074   0x30  Data  Gb  dgSaijoApp.o [1]
+saijo_buff_off          0x0800525c    0x8  Data  Gb  dgSaijoApp.o [1]
+saijo_buff_on           0x08005254    0x8  Data  Gb  dgSaijoApp.o [1]
+set_FlagNFCUpdated      0x08003303    0x8  Code  Gb  dgSIC4310App.o [1]
+sic4310BuffRxIn         0x20001820    0x1  Data  Gb  dgSIC4310App.o [1]
+sic4310BuffRxOut        0x20001821    0x1  Data  Gb  dgSIC4310App.o [1]
+sic4310BuffTxIdx        0x2000181e    0x1  Data  Gb  dgSIC4310App.o [1]
+sic4310RxBuff           0x20001620   0x40  Data  Gb  dgSIC4310App.o [1]
+sic4310TxBuff           0x200015e0   0x40  Data  Gb  dgSIC4310App.o [1]
+sic4310TxBuffLen        0x2000181f    0x1  Data  Gb  dgSIC4310App.o [1]
+sprintf                 0x08003b15   0x34  Code  Gb  sprintf.o [4]
+strcat                  0x08004073   0x1c  Code  Gb  strcat.o [4]
+strchr                  0x08004a7d         Code  Gb  strchr.o [6]
+strcmp                  0x08003ad1         Code  Gb  strcmp.o [6]
+strcpy                  0x08003b49         Code  Gb  strcpy.o [6]
+strlen                  0x08003d39         Code  Gb  strlen.o [6]
+strncpy                 0x08003b8d         Code  Gb  strncpy.o [6]
+sx1App_Init             0x080001b1   0x44  Code  Gb  sx1App.o [1]
+sx1App_Process          0x08000353  0x3ae  Code  Gb  sx1App.o [1]
+tmpStr                  0x200014e0  0x100  Data  Gb  dgZigbeeApi.o [1]
+tolower                 0x08001985   0x14  Code  Gb  tolower.o [4]
+toupper                 0x080049cd   0x18  Code  Gb  toupper.o [4]
+ubRxIndex               0x20001832    0x1  Data  Gb  sx1App.o [1]
+ubTxIndex               0x20001833    0x1  Data  Gb  sx1App.o [1]
+write_I2C_command       0x080035ff   0x30  Code  Gb  oledApp.o [1]
+write_I2C_command2      0x080035b7   0x48  Code  Gb  oledApp.o [1]
+write_I2C_data          0x0800362f   0x30  Code  Gb  oledApp.o [1]
+z_code                  0x08004c88  0x248  Data  Gb  oledApp.o [1]
+zbBuffTxIdx             0x2000182b    0x1  Data  Gb  dgZigbeeApi.o [1]
+zbRxBuff                0x200013e0  0x100  Data  Gb  dgZigbeeApi.o [1]
+zbRxBuff_RdIdx          0x2000182e    0x1  Data  Gb  dgZigbeeApi.o [1]
+zbRxBuff_WrIdx          0x2000182d    0x1  Data  Gb  dgZigbeeApi.o [1]
+zbTxBuff                0x200012e0  0x100  Data  Gb  dgZigbeeApi.o [1]
+zbTxBuffLen             0x2000182c    0x1  Data  Gb  dgZigbeeApi.o [1]
+
+
+[1] = E:\My document\TESA Top Gun\131022_2041_STM32F4xx_PowerMeter_OLED\STM32F4xx_PowerMeter_OLED\Project\STM32F4xx_StdPeriph_Templates\EWARM\STM324xAirBean_EVAL\Obj
+[2] = E:\My document\TESA Top Gun\131022_2041_STM32F4xx_PowerMeter_OLED\STM32F4xx_PowerMeter_OLED\userLib
+[3] = command line
+[4] = dl7M_tlf.a
+[5] = m7M_tlv.a
+[6] = rt7M_tl.a
+[7] = shb_l.a
+
+  20 456 bytes of readonly  code memory
+   1 384 bytes of readonly  data memory
+  10 293 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

@@ -12722,8 +12722,9 @@ void NFC_Setup(void);
 
 uint16_t Data_in;
 char NFC_input;
-char NFC_InputStore[8];                                                                 
-uint8_t i=0, j=0;                                                                      
+char NFC_InputStore[11];                                                                 
+char NFC_Upper[11];
+uint8_t i=0, j=0,x=0;                                                                      
 void delay(void);
 void NFC_Setup1(void);
 
@@ -12737,8 +12738,15 @@ int main()
   lcd_Str(1, 1,"Hello TESA");
   while(1)
   {
-    NFC_InputStore[i] = NFC_input;
-    lcd_Str(1,2,NFC_InputStore);
+    if(i == 10)
+    {
+      lcd_Str(1,2,NFC_InputStore);
+      for(x=0;x<11;x++)
+      {
+          USART_SendData(((USART_TypeDef *) ((((uint32_t)0x40000000) + 0x00010000) + 0x1400)),NFC_Upper[x]);
+          while(USART_GetFlagStatus(((USART_TypeDef *) ((((uint32_t)0x40000000) + 0x00010000) + 0x1400)), ((uint16_t)0x0040)) == RESET);
+      }
+    }
   }
   
 }
@@ -12748,26 +12756,10 @@ void USART6_IRQHandler(void)
 {
   NFC_input = USART_ReceiveData(((USART_TypeDef *) ((((uint32_t)0x40000000) + 0x00010000) + 0x1400)));
   USART_ClearITPendingBit(((USART_TypeDef *) ((((uint32_t)0x40000000) + 0x00010000) + 0x1400)), ((uint16_t)0x0525));
+  NFC_InputStore[i] = NFC_input;
+  NFC_Upper[i] = NFC_input - 0x20;
   i++;
-  i = i%8;
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
+  i = i% 11;
 }
 
 void NFC_Setup1(void)
@@ -12843,9 +12835,9 @@ int fputc(int ch, FILE *f)
 {
    
    
-  USART_SendData(((USART_TypeDef *) (((uint32_t)0x40000000) + 0x4400)), (uint8_t) ch);
+  USART_SendData(((USART_TypeDef *) ((((uint32_t)0x40000000) + 0x00010000) + 0x1400)), (uint8_t) ch);
    
-  while (USART_GetFlagStatus(((USART_TypeDef *) (((uint32_t)0x40000000) + 0x4400)), ((uint16_t)0x0040)) == RESET)
+  while (USART_GetFlagStatus(((USART_TypeDef *) ((((uint32_t)0x40000000) + 0x00010000) + 0x1400)), ((uint16_t)0x0040)) == RESET)
   {}
   return ch;
 }
