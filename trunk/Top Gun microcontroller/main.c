@@ -23,10 +23,10 @@ File : main.c
 // Create Global Variable ******************************************************
 uint16_t Data_in;
 char NFC_input;
-char NFC_InputStore[8];                                                                 //Variable for Store Data form NFC
-uint8_t i=0, j=0;                                                                      //Varable for Array
+char NFC_InputStore[11];                                                                 //Variable for Store Data form NFC
+char NFC_Upper[11];
+uint8_t i=0, j=0,x=0;                                                                      //Varable for Array
 void delay(void);
-void NFC_Setup1(void);
 //******************************************************************************
 // Main Function ***************************************************************
 int main()
@@ -38,8 +38,15 @@ int main()
   lcd_Str(1, 1,"Hello TESA");
   while(1)
   {
-    NFC_InputStore[i] = NFC_input;
-    lcd_Str(1,2,NFC_InputStore);
+    if(i == 10)
+    {
+      lcd_Str(1,2,NFC_InputStore);
+      for(x=0;x<11;x++)
+      {
+          USART_SendData(USART6,NFC_Upper[x]);
+          while(USART_GetFlagStatus(USART6, USART_FLAG_TC) == RESET);
+      }
+    }
   }
   
 }
@@ -49,74 +56,12 @@ void USART6_IRQHandler(void)
 {
   NFC_input = USART_ReceiveData(USART6);
   USART_ClearITPendingBit(USART6, USART_IT_RXNE);
+  NFC_InputStore[i] = NFC_input;
+  NFC_Upper[i] = NFC_input - 0x20;
   i++;
-  
-  
-/
+  i = i% 11;
 }
 //******************************************************************************
-void NFC_Setup1(void)
-{
-  /*
-      NFC_Setup - USE USART6 
-        PC6 - NFC_TX
-        PC7 - NFC_RX
-  */
-  //Set Up USART
-  //USE USART6 Set up for NFC
-  
-  GPIO_InitTypeDef GPIO_InitStruct;
-  USART_InitTypeDef USART_InitStruct;
-	
-  RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART6, ENABLE);
-  RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOC, ENABLE);
-	
-  /*
-    Use Port C Pin PC6 - NFC_TX
-    Use Port C Pin PC7 - NFC_RX
-  */
-  /* set GPIO init structure parameters values */
-  GPIO_InitStruct.GPIO_Pin  = GPIO_Pin_6 | GPIO_Pin_7;
-  GPIO_InitStruct.GPIO_Mode = GPIO_Mode_AF;
-  GPIO_InitStruct.GPIO_Speed = GPIO_Speed_50MHz;
-  GPIO_InitStruct.GPIO_OType = GPIO_OType_PP;
-  GPIO_InitStruct.GPIO_PuPd = GPIO_PuPd_NOPULL;
-  GPIO_Init(GPIOC, &GPIO_InitStruct);
-  
-  /* Connect PXx to USARTx_Tx*/
-  GPIO_PinAFConfig(GPIOC, GPIO_PinSource6, GPIO_AF_USART6);
-  /* Connect PXx to USARTx_Rx*/
-  GPIO_PinAFConfig( GPIOC, GPIO_PinSource7, GPIO_AF_USART6);
-  
-  
-  /* USART_InitStruct members default value */
-  USART_InitStruct.USART_BaudRate = 115200;
-  USART_InitStruct.USART_WordLength = USART_WordLength_8b;
-  USART_InitStruct.USART_StopBits = USART_StopBits_1;
-  USART_InitStruct.USART_Parity = USART_Parity_No;
-  USART_InitStruct.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;
-  USART_InitStruct.USART_HardwareFlowControl = USART_HardwareFlowControl_None;  
-  USART_Init(USART6, &USART_InitStruct);
-  
-   /*USART Interrupt*/
-  /* Set interrupt: NVIC_Setup */
-  NVIC_InitTypeDef NVIC_InitStruct;
-  NVIC_PriorityGroupConfig(NVIC_PriorityGroup_0);
-  //ENABLE USART4 Interruper
-  NVIC_InitStruct.NVIC_IRQChannel = USART6_IRQn;
-  NVIC_InitStruct.NVIC_IRQChannelPreemptionPriority = 0;
-  NVIC_InitStruct.NVIC_IRQChannelSubPriority = 0;
-  NVIC_InitStruct.NVIC_IRQChannelCmd = ENABLE;
-  NVIC_Init(&NVIC_InitStruct);
-
-  /* Set Interrupt Mode*/
-  //ENABLE the USART Receive Interrupt
-  USART_ITConfig(USART6, USART_IT_RXNE, ENABLE);
-
-  //Enable USART6
-  USART_Cmd(USART6, ENABLE);
-}
-
 void delay(void)
 {
   unsigned char i;
@@ -128,9 +73,9 @@ int fputc(int ch, FILE *f)
 {
   /* Place your implementation of fputc here */
   /* e.g. write a character to the USART */
-  USART_SendData(USART2, (uint8_t) ch);
+  USART_SendData(USART6, (uint8_t) ch);
   /* Loop until the end of transmission */
-  while (USART_GetFlagStatus(USART2, USART_FLAG_TC) == RESET)
+  while (USART_GetFlagStatus(USART6, USART_FLAG_TC) == RESET)
   {}
   return ch;
 }

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1307</ColumnWidth1></Debug-Log>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>980</ColumnWidth1><ColumnWidth2>261</ColumnWidth2><ColumnWidth3>65</ColumnWidth3></Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>327</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        <col-names>
+          
+          
+        <item>Disassembly</item><item>_I0</item></col-names>
+        <col-widths>
+          
+          
+        <item>500</item><item>20</item></col-widths>
+        <DisasmHistory/>
+        
+        
+      <PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><ShowCodeCoverage>1</ShowCodeCoverage><ShowInstrProfiling>1</ShowInstrProfiling></Disassembly>
+    <StaticWatch><expressions><item>pSensorSoftBuffer</item><item>Status_SendData</item><item>ubTxIndex</item><item>aRxBuffer</item><item>ubRxIndex</item><item>DataBuffer</item><item>EnergyValue</item><item>Time_Rec_Base</item><item>MeterID</item><item>MeterID_Encode</item><item>rs485Id</item><item>Remain_Ch</item><item>Money_InSystem</item><item>Money_Input</item><item></item></expressions><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>179</item><item>150</item><item>100</item><item>185</item></col-widths><PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></StaticWatch><QuickWatch><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>100</item><item>150</item><item>100</item><item>100</item></col-widths><QWatchHistory><item>BUFFERSIZE</item></QWatchHistory><PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>StaticWatch</Factory></Window><Window><Factory>WATCH_1</Factory></Window></Windows></PreferedWindows></QuickWatch><WATCH_1><PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>StaticWatch</Factory></Window><Window><Factory>QuickWatch</Factory></Window></Windows></PreferedWindows><expressions><item>ACKBuffer</item><item>aRxBuffer</item><item>saijoRxBuff</item><item>zbRxBuff</item><item>tmpByte</item><item>tmpStr</item><item>readingVoltege</item><item>saijoPacketBuffer</item><item>sic4310RxBuff</item><item></item></expressions><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>152</item><item>133</item><item>100</item><item>142</item></col-widths></WATCH_1><Find-in-Files><ColumnWidth0>331</ColumnWidth0><ColumnWidth1>47</ColumnWidth1><ColumnWidth2>568</ColumnWidth2></Find-in-Files><Breakpoints><col-names><item>Breakpoint</item><item>_I0</item></col-names><col-widths><item>500</item><item>35</item></col-widths></Breakpoints><CallStack><col-names><item>Frame</item><item>_I0</item></col-names><col-widths><item>400</item><item>20</item></col-widths></CallStack><Register/><PHYSBPWIN><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Debug-Log</Factory></Window><Window><Factory>Build</Factory></Window><Window><Factory>Find-in-Files</Factory></Window><Window><Factory>Breakpoints</Factory></Window><Window><Factory>CallStack</Factory></Window><Window><Factory>Memory</Factory></Window></Windows></PreferedWindows><col-names><item>#</item><item>Breakpoint</item></col-names><col-widths><item>15</item><item>400</item></col-widths></PHYSBPWIN><Memory><FindDirection>1</FindDirection><FindAsHex>0</FindAsHex></Memory><DRIVER_DATA_LOG><col-names><item>Program Counter</item><item>Time</item></col-names><col-widths><item>130</item><item>180</item></col-widths><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></DRIVER_DATA_LOG></Static>
+    <Windows>
+      
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-21914-4579</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-21391-4589</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-10516-21715</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab><Tab><Identity>TabID-21078-10367</Identity><TabName>Breakpoints</TabName><Factory>Breakpoints</Factory></Tab><Tab><Identity>TabID-13352-3847</Identity><TabName>Call Stack</TabName><Factory>CallStack</Factory></Tab><Tab><Identity>TabID-31681-17627</Identity><TabName>Memory</TabName><Factory>Memory</Factory><Session><ZoneNumber>0</ZoneNumber><SelectionAnchor>536871004</SelectionAnchor><SelectionEnd>536871004</SelectionEnd><UnitsPerGroup>1</UnitsPerGroup><EndianMode>0</EndianMode><DataCovEnabled>0</DataCovEnabled><DataCovShown>0</DataCovShown><AutoRefresh>0</AutoRefresh><HScroll>0</HScroll><VScroll>33554427</VScroll></Session></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-32662-4582</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>Project</ExpandedNode><ExpandedNode>Project/Output</ExpandedNode><ExpandedNode>Project/STM32_EVAL</ExpandedNode><ExpandedNode>Project/STM32_EVAL/STM324xAB_EVAL</ExpandedNode><ExpandedNode>Project/User</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd2><Tabs><Tab><Identity>TabID-4300-29952</Identity><TabName>Disassembly</TabName><Factory>Disassembly</Factory><Session/></Tab><Tab><Identity>TabID-18156-17074</Identity><TabName>Watch 1</TabName><Factory>WATCH_1</Factory></Tab><Tab><Identity>TabID-24059-10401</Identity><TabName>Register</TabName><Factory>Register</Factory><Session><REG1>0</REG1><REG2>0</REG2><Group>7</Group><States>0</States></Session></Tab><Tab><Identity>TabID-29736-28144</Identity><TabName>Live Watch</TabName><Factory>StaticWatch</Factory></Tab></Tabs><SelectedTab>3</SelectedTab></Wnd2></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\userLib\board\tesaDemoBoard.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>134</YPos2><SelStart2>7932</SelStart2><SelEnd2>7990</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\Utilities\STM32_EVAL\STM324xAB_EVAL\stm324xab_eval.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>341</YPos2><SelStart2>10514</SelStart2><SelEnd2>10514</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\userLib\dgSIC4310App.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>63</YPos2><SelStart2>4373</SelStart2><SelEnd2>4386</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\main_abEvalTest.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>127</YPos2><SelStart2>6830</SelStart2><SelEnd2>6830</SelEnd2></Tab><ActiveTab>3</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\userLib\oledApp.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>468</YPos2><SelStart2>16899</SelStart2><SelEnd2>16899</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\userLib\dgSaijoApp.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>284</YPos2><SelStart2>11016</SelStart2><SelEnd2>11033</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\userLib\sx1App.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>129</YPos2><SelStart2>6493</SelStart2><SelEnd2>6493</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00ef3f48><key>iaridepm.enu1</key></Toolbar-00ef3f48></Sizes></Row0><Row1><Sizes><Toolbar-07ece360><key>debuggergui.enu1</key></Toolbar-07ece360><Toolbar-07ece040><key>armstlink.enu1</key></Toolbar-07ece040></Sizes></Row1></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>195</Bottom><Right>418</Right><x>-2</x><y>-2</y><xscreen>24932</xscreen><yscreen>122</yscreen><sizeHorzCX>24709613</sizeHorzCX><sizeHorzCY>260684</sizeHorzCY><sizeVertCX>416254</sizeVertCX><sizeVertCY>420940</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>195</Bottom><Right>266</Right><x>-2</x><y>-2</y><xscreen>839</xscreen><yscreen>213</yscreen><sizeHorzCX>831516</sizeHorzCX><sizeHorzCY>455128</sizeHorzCY><sizeVertCX>265610</sizeVertCX><sizeVertCY>420940</sizeVertCY></Rect></Wnd2></Sizes></Row0></Right><Bottom><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>204</Bottom><Right>1011</Right><x>-2</x><y>-2</y><xscreen>1013</xscreen><yscreen>206</yscreen><sizeHorzCX>1003964</sizeHorzCX><sizeHorzCY>440171</sizeHorzCY><sizeVertCX>24709613</sizeVertCX><sizeVertCY>260684</sizeVertCY></Rect></Wnd0></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+
